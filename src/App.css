@@ -32,7 +32,16 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.blog {
+  margin: 10px;
+  border: 4px solid lightcoral;
+  padding: 15px;
+  background-color: lightslategray;
+  inline-size: 25%;
 }
