@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Bikes-Rental-Point",
+        "price": 7000,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdg9SuLKeT-2kOCE0AXlYPYRvK7J0zx6n_g&usqp=CAU"
+    },
+    {
+        "id": 2,
+        "name": "Boy-Riding-his-BiCycle-Park",
+        "price": 9000,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl0RQhcWSPsCyMFjeGLcXSrQFKgW63oNwvrA&usqp=CAU"
+    },
+    {
+        "id": 3,
+        "name": "Crop-Man-With bicycle-Standing",
+        "price": 8000,
+        "img": "https://img.freepik.com/free-photo/white-bicycle-standing-park-morning-fitness-loneliness_1153-6768.jpg?w=2000"
+    },
+    {
+        "id": 4,
+        "name": "Rent-bike-city",
+        "price": 10000,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy0cvn5Qe2Jy_OaOXcWO-61CGw2DPOSEwVOQ&usqp=CAU"
+    },
+    {
+        "id": 5,
+        "name": "Stylish-girls-walking-summer-park",
+        "price": 11000,
+        "img": "https://wallup.net/wp-content/uploads/2019/09/720367-landscape-bicycle-earth-flower-nature-park-tree-forest-spring-mood-2-748x498.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Two-Young-Girls-with Bike",
+        "price": 12000,
+        "img": "https://thumbs.dreamstime.com/b/bicycle-flowers-nice-old-side-street-small-village-tuscany-italy-36296376.jpg"
+    }
+]

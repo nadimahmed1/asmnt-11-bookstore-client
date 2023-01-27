@@ -1,0 +1,13 @@
+.something {
+    justify-content: center;
+
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+}
+
+.one {
+    border: 3px dotted black;
+    margin: 20px;
+    padding: 20px;
+}
