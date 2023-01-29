@@ -1,9 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from 'react-router-dom';
+import AddUser from './Pages/AddUser/AddUser';
+
 import FeaturedProducts from './Pages/FeaturedProducts/FeaturedProducts';
 import Header from './Pages/Header/Header';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
+import Deleteproducts from './Pages/manageCycle/manageCycle';
 import ItemsDetail from './Pages/ManageItems/ItemsDetail/ItemsDetail';
 import ManageItems from './Pages/ManageItems/ManageItems';
 import Products from './Pages/Products/Products';
@@ -32,6 +35,12 @@ function App() {
         <Route path='/manageItems/:manageItemId' element={<ItemsDetail></ItemsDetail>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
+        <Route path='/deleteProducts' element={<RequireAuth>
+          <Deleteproducts></Deleteproducts>
+        </RequireAuth>}></Route>
+        <Route path='/addCycle' element={<RequireAuth>
+          <AddUser></AddUser>
+        </RequireAuth>}></Route>
 
       </Routes>
 

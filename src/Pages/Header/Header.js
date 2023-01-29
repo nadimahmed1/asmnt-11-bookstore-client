@@ -9,7 +9,7 @@ import './Header.css'
 const Header = () => {
     const [user] = useAuthState(auth)
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar sticky='top' collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -23,17 +23,21 @@ const Header = () => {
 
 
                         {
-                            user ? <button className='text-light' onClick={() => signOut(auth)}>LogOut</button> : <Link to={'/login'}>Login</Link>
+                            user ? <button className='text-light m-2 p-2 border' onClick={() => signOut(auth)}>LogOut</button> : <Link to={'/login'}>Login</Link>
+                        }
+
+                        {
+                            user && <>
+                                <Nav.Link as={Link} to="addCycle" className='text-light'>Add Cycle</Nav.Link>
+                                <Nav.Link as={Link} to="deleteProducts" className='text-light'>Manage Cycle</Nav.Link>
+
+
+                            </>
                         }
 
                     </Nav>
 
-                    <Nav>
-                        <Link href="#deets">More deets</Link>
-                        <Link eventKey={2} href="#memes">
-                            Dank memes
-                        </Link>
-                    </Nav>
+
                 </Navbar.Collapse>
             </Container>
         </Navbar>

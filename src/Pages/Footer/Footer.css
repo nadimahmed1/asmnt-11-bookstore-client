@@ -1,0 +1,14 @@
+.footer {
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+    margin-top: 40%;
+
+}
+
+.link a {
+    text-decoration: none;
+
+    color: bisque;
+
+}

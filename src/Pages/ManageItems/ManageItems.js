@@ -12,7 +12,7 @@ const ManageItems = () => {
             <div className='manageItems'>
                 {
                     products.map(manageItem => <ManageItem
-                        key={manageItem.id}
+                        key={manageItem._id}
                         manageItem={manageItem}
                     ></ManageItem>)
                 }

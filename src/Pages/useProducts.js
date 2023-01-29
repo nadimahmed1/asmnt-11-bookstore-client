@@ -5,10 +5,10 @@ const useProducts = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
 
-        fetch('allProducts.json')
+        fetch('http://localhost:5000/bicycle')
             .then(res => res.json())
             .then(data => setProducts(data))
     },)
-    return [products]
+    return [products, setProducts]
 }
 export default useProducts;
