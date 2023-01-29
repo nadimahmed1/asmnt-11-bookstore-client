@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from 'react-router-dom';
+import About from './Pages/About/About';
 import AddUser from './Pages/AddUser/AddUser';
 
 import FeaturedProducts from './Pages/FeaturedProducts/FeaturedProducts';
@@ -9,6 +10,7 @@ import Login from './Pages/Login/Login';
 import Deleteproducts from './Pages/manageCycle/manageCycle';
 import ItemsDetail from './Pages/ManageItems/ItemsDetail/ItemsDetail';
 import ManageItems from './Pages/ManageItems/ManageItems';
+import NotFound from './Pages/NotFound/NotFound';
 import Products from './Pages/Products/Products';
 import Register from './Pages/Register/Register';
 import RequireAuth from './Pages/RequireAuth/RequireAuth';
@@ -29,6 +31,7 @@ function App() {
         <Route path='/products' element={<RequireAuth>
           <Products></Products>
         </RequireAuth>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
         <Route path='/manageItems' element={<RequireAuth>
           <ManageItems></ManageItems>
         </RequireAuth>}></Route>
@@ -41,6 +44,8 @@ function App() {
         <Route path='/addCycle' element={<RequireAuth>
           <AddUser></AddUser>
         </RequireAuth>}></Route>
+
+        <Route path='*' element={<NotFound></NotFound>}></Route>
 
       </Routes>
 
