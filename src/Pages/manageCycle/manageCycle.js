@@ -34,7 +34,7 @@ const Deleteproducts = () => {
                     >
                         <h5>{product.name}
                             <img className='image w-100' src={product.img} alt="" />
-                            <button onClick={() => handleDelete(product._id)} className='btn btn-danger m-2 p-4'>Delete</button></h5>
+                            <button onClick={() => handleDelete(product._id)} className='btn btn-danger m-2 p-2'>Delete</button></h5>
                     </div>)
                 }
             </div>

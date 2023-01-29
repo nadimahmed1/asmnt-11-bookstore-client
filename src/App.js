@@ -2,14 +2,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from 'react-router-dom';
 import About from './Pages/About/About';
 import AddUser from './Pages/AddUser/AddUser';
+import Allcycle from './Pages/AllCycle/Allcycle';
 
 import FeaturedProducts from './Pages/FeaturedProducts/FeaturedProducts';
 import Header from './Pages/Header/Header';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import Deleteproducts from './Pages/manageCycle/manageCycle';
-import ItemsDetail from './Pages/ManageItems/ItemsDetail/ItemsDetail';
-import ManageItems from './Pages/ManageItems/ManageItems';
+
 import NotFound from './Pages/NotFound/NotFound';
 import Products from './Pages/Products/Products';
 import Register from './Pages/Register/Register';
@@ -32,10 +32,11 @@ function App() {
           <Products></Products>
         </RequireAuth>}></Route>
         <Route path='/about' element={<About></About>}></Route>
-        <Route path='/manageItems' element={<RequireAuth>
-          <ManageItems></ManageItems>
+
+        <Route path='/allCycle' element={<RequireAuth>
+          <Allcycle></Allcycle>
         </RequireAuth>}></Route>
-        <Route path='/manageItems/:manageItemId' element={<ItemsDetail></ItemsDetail>}></Route>
+
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/deleteProducts' element={<RequireAuth>

@@ -16,7 +16,7 @@ const Footer = () => {
                 <br />
                 <Link to={'products'}>Products</Link>
                 <br />
-                <Link to={'manageCycle'}>manageCycle</Link>
+                <Link to={'manageItems'}>manageCycle</Link>
             </div>
             <p><small className='text-light'>copyright @ {year} </small></p>
         </footer>

@@ -17,8 +17,8 @@ const Header = () => {
                     <Nav className="barnav me-auto">
                         <Link to="/home">Home</Link>
                         <Link to="featured">Featured</Link>
-                        <Link to={'/products'}>Products</Link>
-                        <Link to={'/manageItems'}>Manage Items</Link>
+                        {/* <Link to={'/products'}>Products</Link> */}
+                        <Link to={'/allCycle'}>All Cycle</Link>
                         <Link to={'/about'}>About</Link>
 
 

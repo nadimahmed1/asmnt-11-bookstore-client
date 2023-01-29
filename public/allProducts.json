@@ -1,100 +1,120 @@
 [
     {
+        "id": 1,
         "name": "Bikes-Rental-Point",
         "price": 7000,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFdg9SuLKeT-2kOCE0AXlYPYRvK7J0zx6n_g&usqp=CAU"
     },
     {
+        "id": 2,
         "name": "Boy-Riding-his-BiCycle-Park",
         "price": 9000,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl0RQhcWSPsCyMFjeGLcXSrQFKgW63oNwvrA&usqp=CAU"
     },
     {
+        "id": 3,
         "name": "Crop-Man-With bicycle-Standing",
         "price": 8000,
         "img": "https://img.freepik.com/free-photo/white-bicycle-standing-park-morning-fitness-loneliness_1153-6768.jpg?w=2000"
     },
     {
+        "id": 4,
         "name": "Rent-bike-city",
         "price": 10000,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy0cvn5Qe2Jy_OaOXcWO-61CGw2DPOSEwVOQ&usqp=CAU"
     },
     {
+        "id": 5,
         "name": "Stylish-girls-walking-summer-park",
         "price": 11000,
         "img": "https://wallup.net/wp-content/uploads/2019/09/720367-landscape-bicycle-earth-flower-nature-park-tree-forest-spring-mood-2-748x498.jpg"
     },
     {
+        "id": 6,
         "name": "Two-Young-Girls-with Bike",
         "price": 12000,
         "img": "https://thumbs.dreamstime.com/b/bicycle-flowers-nice-old-side-street-small-village-tuscany-italy-36296376.jpg"
     },
     {
+        "id": 7,
         "name": "Two-Young-Girls-with Bike",
         "price": 12000,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThYt-kp28OoSop9HvbmOd2xGCHQk5lqcnfhg&usqp=CAU"
     },
     {
+        "id": 8,
         "name": "Two-Young-Girls-with Bike",
         "price": 12000,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRAHkYKYWnb1HjB8r9DKjPGFop84VemnJbow&usqp=CAU"
     },
     {
+        "id": 9,
         "name": "Two-Young-Girls-with Bike",
         "price": 12000,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfPIL_fx6sD8yxZpq_pW0KFygSMp0eeUscJNDXkV7Fn3vpJFHCv7w6RkODCIQ751Y3Bsk&usqp=CAU"
     },
     {
+        "id": 10,
         "name": "Two-Young-Girls-with Bike",
         "price": 12000,
         "img": "https://trek.scene7.com/is/image/TrekBicycleProducts/TK22_FuelEXe_Marquee_Anechoic_2?$responsive-pjpg$&cache=on,on&wid=1920"
     },
     {
+        "id": 11,
         "name": "Two-Young-Girls-with Bike",
         "price": 12000,
         "img": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmljeWNsZXxlbnwwfHwwfHw%3D&w=1000&q=80"
     },
     {
+        "id": 12,
         "name": "Two-Young-Girls-with Bike",
         "price": 12000,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJRVpmlU4lUDvggB-sGDr0brjfV9cPmfU2FA&usqp=CAU"
     },
     {
+        "id": 13,
         "name": "Two-Young-Girls-with Bike",
         "price": 12000,
         "img": "https://burst.shopifycdn.com/photos/green-bike-by-water.jpg?width=1200&format=pjpg&exif=1&iptc=1"
     },
     {
+        "id": 14,
         "name": "Two-Young-Girls-with Bike",
         "price": 12000,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo_aKA4-Eq14hu4jghOqFc-amN7eT1WWK9KA&usqp=CAU"
     },
     {
+        "id": 15,
         "name": "Two-Young-Girls-with Bike",
         "price": 12000,
         "img": "https://wallpaperaccess.com/full/278047.jpg"
     },
     {
+        "id": 16,
         "name": "Two-Young-Girls-with Bike",
         "price": 12000,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXMnHPiCL_JarPuoc-wi88KZQb8cHde_e0kg&usqp=CAU"
     },
     {
+        "id": 17,
         "name": "Two-Young-Girls-with Bike",
         "price": 12000,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp5M3hF6aeNkt8JYW_kT06JFp2VzpqPKHIpw&usqp=CAU"
     },
     {
+        "id": 18,
         "name": "Two-Young-Girls-with Bike",
         "price": 12000,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8rGXhu_9wG_U_obQy6OJFWNnpS3lbOmulKQ&usqp=CAU"
     },
     {
+        "id": 19,
         "name": "Two-Young-Girls-with Bike",
         "price": 12000,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD4D5990eB0HVvX5xTpkQQwBjmZnnnLP4HfpdQGAThock4ofYBuV9HIPr9ps7T_Hu7Aag&usqp=CAU"
     },
     {
+        "id": 20,
         "name": "Two-Young-Girls-with Bike",
         "price": 12000,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQFBD1fNnJLJSxqWUVvU03aWLZomBtvve7I9ua9K4O6_k6IBmMssZR5h6S9PnB-2B4QBM&usqp=CAU"
