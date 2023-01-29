@@ -9,11 +9,19 @@ const Home = () => {
     return (
         <div>
 
-            <Top></Top>
-            <Somthing></Somthing>
+            <div>
+                <Top></Top>
+            </div>
+            <div>
+                <Somthing></Somthing>
+            </div>
             <br />
-            <FeaturedProducts></FeaturedProducts>
-            <Products></Products>
+            <div>
+                <FeaturedProducts></FeaturedProducts>
+            </div>
+            <div>
+                <Products></Products>
+            </div>
 
         </div>
     );
